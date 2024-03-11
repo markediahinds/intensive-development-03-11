@@ -30,7 +30,7 @@ This repository is organized into three main folders:
 
 ### Challenges
 
-Within the `colordesigns` and `placementdesigns` folders, you will find two - three challenges each. Each challenge has its own separate `index.html` and `css` file.
+Within the `0-guided`,  `1-challenge`, and `2-challenge` folders, you will find your challenges. Each challenge has its own separate `index.html` and `css` file.
 
 **Your Task:** Recreate the images provided as `model.png` for each challenge using HTML and SCSS. Pay close attention to detail and aim to match the design as closely as possible within the time frame given.
 
