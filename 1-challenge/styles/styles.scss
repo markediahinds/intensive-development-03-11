@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh; 
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    background-color: #141414;
+}
+
+.container {
+    background-color: #1F1F1F;
+    display: grid;
+    grid-template-rows: 1fr;
+    border-radius: 15px;
+    width: 340px;
+}
+
+.modal {
+    display: grid;
+    place-items: center;
+
+    &__img {
+        border-radius: 50%; 
+        margin: 40px 0 10px 0   
+    }
+
+    &__name {
+        color: white;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    &__location {
+        color: #C5F72C;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    &__quote {
+        color: white;
+        font-size: small;
+
+    }
+}
+
+.links {
+    display: grid;
+    place-items: center;
+    gap: 12px;
+    
+    &__social {
+        background-color: #333333;
+        color: white;
+        border: none;
+        width: 77%;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+
+    &__social:hover {
+        background-color: #C5F72C;
+        color: #333333;
+        transition: 0.7s;
+        cursor: url('/intensive-development-03-11/1-challenge/images/cursor.cur'), auto;
+        // caret-color: black;
+    }
+
+    .github {
+        margin-top: 12px;
+    }
+
+    .instagram {
+        margin-bottom: 35px;
+    }
+
+}
